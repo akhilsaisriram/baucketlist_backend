@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'members',
     'members_chat',
     'members_feed',
+    'cryptography'
 ]
 
 MIDDLEWARE = [
