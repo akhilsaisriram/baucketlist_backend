@@ -196,8 +196,7 @@ class Add_curlocation(APIView):
         if not user:
             return Response({'error': 'User not found'}, status=404)
 
-        if user.curlocation is None:
-            user.bucket = []
+
 
         user.curlocation=bucket
         user.save()
